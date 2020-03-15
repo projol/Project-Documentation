@@ -1,28 +1,41 @@
 # JR - Japan Rail
 **DEV URL** - [http://yonefujapan.xsrv.jp/php7/JapanRailTimes/web/]
+| Username | Password |
+| ----- | ----- |
+| JRTAdmin | 123edcxzaqws |
  ## Folder Strucutre
 > **folder structure** : web/themes/cmsApp/assets
-  - lib *(includes source files)*
+  - **lib *(includes source files)***
     - **js**
         *use custom.js for writing custom javascript codes*
+        - jQuery JavaScript Library v3.4.1 [jQuery](https://jquery.com/)
+        - Bootstrap v4.0.0 [Bootstrap](https://getbootstrap.com)
+        - FancyBox v3.3.5 [Fancy box](http://fancyapps.com/fancybox/)
+ 
     - **scss**
         - **theme**
             *includes all custom css files broken down into partials files which are compiled by importing in **theme.scss** file*
             *Bootstrap default styles have been overwritten. the file is in **theme/_variables.scss**, use this file to overwrite default styles or add new variables*
         - **thirdparty**
             *includes css libraries such as bootstrap, carousel, fancybox, fontawesome*
+            - Bootstrap v4.0.0 [Bootstrap](https://getbootstrap.com)
+            - Owl Carousel v2.1.1 [Owl Carousel](http://owlcarousel2.github.io/OwlCarousel2/)
+            - FancyBox v3.3.5 [Fancy box](http://fancyapps.com/fancybox/)
+            - Font Awesome 4.7.0 [FontAwesome](https://fontawesome.com/)
 
-- dist *(includes complied files)*
-    - css
+- **dist *(includes complied files)***
+    - css *(compiled and minified css files)*
     - fonts
         *custom fonts - includes font icons and font family*
         *fonticons are included in fonts folder and css file for it is **fontastic.css***
         login to : [http://app.fontastic.me/] 
         **Font Name** - jr-rail
-        username - prajwol_mi@yonefu.info
-        password - miracle123
+
+        | Username | Password |
+        | ----- | ----- |
+        | prajwol_mi@yonefu.info | miracle123 |
     - img
-    - js
+    - js *(compiled and minified js)*
 ## Overwriting Bootstrap variables
 Make sure to import the **_variables.scss** file before importing the **bootstrap files**
 ## Color Theme
