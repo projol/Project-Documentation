@@ -88,3 +88,8 @@ Change the following variables, or add new according to the requirements.
 The sticky header is done through jQuery in two steps
 1. In the first step, a class **"ready"** is added to the header nav, which adds a fixed position to header and other necessary styles. The class is added when the header scrolls 100px up from the top of the window
 2. The second step adds a class **"fixed"** to the header nav, which slides down the navigation and sticks to the top. The class is added when the header scrolls 300px up from the top.
+
+## SVG mapping - Japan map
+In the artcle list page, when searching via prefecture map, a modal containing the prefecture list and japan map is included.
+When a prefecture is selected, a class **selected** is added to the prefecture in the map. 
+The class is styled with fill color for svg map, which shows a highlight for the selected prefecture.
