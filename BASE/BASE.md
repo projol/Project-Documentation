@@ -23,8 +23,8 @@ two types of icons are used
         | prajwol_mi@yonefu.info | miracle123 |
         
         **Fontastic guide**
-        [How to create your font icon](http://fontastic.me/howto)
-        [How to add icons to your font](http://fontastic.me/faq)
+        - [How to create your font icon](http://fontastic.me/howto)
+        - [How to add icons to your font](http://fontastic.me/faq)
 
 2. **image sprites**
     the sprite image is supported by its css, the images are in web/images folder, there are three sprites and css
